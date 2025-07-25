@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Primeiro Mesversário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Loading Screen -->
+        <div class="loading-screen" id="loadingScreen">
+            <div class="loading-heart">
+                <i class="fas fa-heart"></i>
+                <p>Carregando nosso amor...</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="love-nav">
+            <ul>
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Nossas Fotos</a></li>
+                <li><a href="#story" class="nav-link"><i class="fas fa-book-open"></i> Nossa História</a></li>
+                <li><a href="#memories" class="nav-link"><i class="fas fa-heart"></i> Memórias</a></li>
+                <li><a href="#future" class="nav-link"><i class="fas fa-calendar-alt"></i> Futuro</a></li>
+            </ul>
+        </nav>
+
+        <!-- Home Section -->
+        <header class="header" id="home">
+            <div class="heart-pulse"><i class="fas fa-heart"></i></div>
+            <h1>Feliz 1 Mês de Namoro!</h1>
+            <p class="subtitle">Uma jornada de amor que só está começando</p>
+            
+            <div class="anniversary-date">
+                <div class="date-box">
+                    <span class="number">30</span>
+                    <span class="label">Dias</span>
+                </div>
+                <div class="date-box">
+                    <span class="number">720</span>
+                    <span class="label">Horas</span>
+                </div>
+                <div class="date-box">
+                    <span class="number">43,200</span>
+                    <span class="label">Minutos</span>
+                </div>
+                <div class="date-box">
+                    <span class="number">2,592,000</span>
+                    <span class="label">Segundos</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Photo Gallery Section -->
+        <section class="photo-gallery-section" id="gallery">
+            <h2 class="section-title">Nossos Momentos</h2>
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="photo-card">
+                            <img src="images/couple1.jpg" alt="Nós dois">
+                            <div class="photo-caption">Nosso primeiro encontro</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo-card">
+                            <img src="images/couple2.jpg" alt="Nós dois">
+                            <div class="photo-caption">Primeiro beijo</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="photo-card">
+                            <img src="images/couple3.jpg" alt="Nós dois">
+                            <div class="photo-caption">Declaração de amor</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <!-- Our Story Section -->
+        <section class="our-story-section" id="story">
+            <h2 class="section-title">Nossa História</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Primeiro Encontro</h3>
+                        <div class="timeline-date">15 de Junho, 2023</div>
+                        <p>O dia em que nossas vidas se cruzaram e tudo começou a fazer sentido.</p>
+                        <div class="timeline-icon"><i class="fas fa-glass-cheers"></i></div>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Primeira Mensagem</h3>
+                        <div class="timeline-date">20 de Junho, 2023</div>
+                        <p>Aquela mensagem que mudou tudo e nos aproximou.</p>
+                        <div class="timeline-icon"><i class="fas fa-comment-dots"></i></div>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Primeiro Beijo</h3>
+                        <div class="timeline-date">25 de Junho, 2023</div>
+                        <p>O momento mágico que selou nosso destino juntos.</p>
+                        <div class="timeline-icon"><i class="fas fa-kiss-wink-heart"></i></div>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Oficialização</h3>
+                        <div class="timeline-date">30 de Junho, 2023</div>
+                        <p>O dia em que decidimos tornar nosso amor oficial.</p>
+                        <div class="timeline-icon"><i class="fas fa-heart"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Letter Section -->
+        <section class="love-letter-section">
+            <h2 class="section-title">Minha Carta Para Você</h2>
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <div class="letter-header">
+                        <div class="letter-date">30 de Julho, 2023</div>
+                        <div class="letter-salutation">Meu amor,</div>
+                    </div>
+                    <div class="letter-content">
+                        <p>Hoje completamos um mês juntos, e cada momento ao seu lado tem sido especial. Desde o primeiro instante em que te vi, soube que você era diferente.</p>
+                        <p>Lembro do seu sorriso quando nos conhecemos, da forma como seus olhos brilham quando está feliz, do som da sua risada que enche meu coração de alegria.</p>
+                        <p>Neste curto tempo, você já se tornou minha pessoa favorita. Cada conversa, cada mensagem, cada momento juntos é um tesouro que guardo com carinho.</p>
+                        <p>Este é apenas o primeiro de muitos meses que espero compartilhar com você. Que possamos construir uma linda história juntos, cheia de amor, risadas e cumplicidade.</p>
+                        <p>Obrigado por existir e por fazer parte da minha vida. Te amo mais do que as palavras podem expressar.</p>
+                    </div>
+                    <div class="letter-footer">
+                        <div class="letter-closing">Com todo meu amor,</div>
+                        <div class="letter-signature">Seu(a) amoroso(a)</div>
+                        <div class="letter-kiss">XOXO</div>
+                    </div>
+                </div>
+                <div class="letter-seal">
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memories Section -->
+        <section class="memories-section" id="memories">
+            <h2 class="section-title">Nossas Memórias</h2>
+            <div class="memory-grid">
+                <div class="memory-card">
+                    <div class="memory-image" style="background-image: url('images/memories/memory1.jpg');"></div>
+                    <div class="memory-content">
+                        <h3>Primeiro Encontro</h3>
+                        <div class="memory-date">15/06/2023</div>
+                        <p>Aquele café que durou horas e onde descobri que você é a pessoa mais incrível que já conheci.</p>
+                        <div class="memory-tags">
+                            <span class="tag">#primeiravez</span>
+                            <span class="tag">#nervoso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image" style="background-image: url('images/memories/memory2.jpg');"></div>
+                    <div class="memory-content">
+                        <h3>Primeiro Beijo</h3>
+                        <div class="memory-date">25/06/2023</div>
+                        <p>O momento mágico sob as estrelas que mudou tudo entre nós.</p>
+                        <div class="memory-tags">
+                            <span class="tag">#inesquecível</span>
+                            <span class="tag">#borboletas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-image" style="background-image: url('images/memories/memory3.jpg');"></div>
+                    <div class="memory-content">
+                        <h3>Dia do Namoro</h3>
+                        <div class="memory-date">30/06/2023</div>
+                        <p>Quando oficializamos o que nossos corações já sabiam - que somos um do outro.</p>
+                        <div class="memory-tags">
+                            <span class="tag">#oficial</span>
+                            <span class="tag">#felicidade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn more-memories">Ver Mais Memórias</button>
+        </section>
+
+        <!-- Music Player Section -->
+        <section class="music-section">
+            <h2 class="section-title">Nossa Trilha Sonora</h2>
+            <div class="music-player">
+                <div class="album-cover">
+                    <img src="images/couple2.jpg" alt="Nossa música">
+                    <div class="vinyl"></div>
+                </div>
+                <div class="player-controls">
+                    <h3 class="song-title">Nome da Nossa Música</h3>
+                    <p class="artist">Artista</p>
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <div class="time-info">
+                        <span class="current-time">0:00</span>
+                        <span class="duration">3:45</span>
+                    </div>
+                    <div class="controls">
+                        <button class="control-btn"><i class="fas fa-step-backward"></i></button>
+                        <button class="control-btn play-btn"><i class="fas fa-play"></i></button>
+                        <button class="control-btn"><i class="fas fa-step-forward"></i></button>
+                        <button class="control-btn"><i class="fas fa-volume-up"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="playlist-item active">
+                    <div class="playlist-number">1</div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Nossa Música</div>
+                        <div class="playlist-artist">Artista</div>
+                    </div>
+                    <div class="playlist-duration">3:45</div>
+                </div>
+                <div class="playlist-item">
+                    <div class="playlist-number">2</div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Música do Primeiro Beijo</div>
+                        <div class="playlist-artist">Artista</div>
+                    </div>
+                    <div class="playlist-duration">4:12</div>
+                </div>
+                <div class="playlist-item">
+                    <div class="playlist-number">3</div>
+                    <div class="playlist-info">
+                        <div class="playlist-title">Música do Coração</div>
+                        <div class="playlist-artist">Artista</div>
+                    </div>
+                    <div class="playlist-duration">3:30</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Plans Section -->
+        <section class="future-section" id="future">
+            <h2 class="section-title">Nossos Planos</h2>
+            <div class="future-container">
+                <div class="future-card">
+                    <div class="future-icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3>Próximo Mês</h3>
+                    <ul class="future-list">
+                        <li>Fazer uma viagem romântica</li>
+                        <li>Conhecer sua família</li>
+                        <li>Nosso primeiro cinema juntos</li>
+                    </ul>
+                </div>
+                <div class="future-card">
+                    <div class="future-icon"><i class="fas fa-heart"></i></div>
+                    <h3>6 Meses</h3>
+                    <ul class="future-list">
+                        <li>Celebrar meio ano juntos</li>
+                        <li>Fazer uma tatuagem combinando</li>
+                        <li>Primeira viagem internacional</li>
+                    </ul>
+                </div>
+                <div class="future-card">
+                    <div class="future-icon"><i class="fas fa-ring"></i></div>
+                    <h3>1 Ano</h3>
+                    <ul class="future-list">
+                        <li>Festa de aniversário de namoro</li>
+                        <li>Morar juntos</li>
+                        <li>Adotar um pet</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Section -->
+        <section class="countdown-section">
+            <h2 class="section-title">Contagem Regressiva</h2>
+            <div class="countdown-container">
+                <div class="countdown-box">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Dias</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Horas</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutos</div>
+                </div>
+                <div class="countdown-box">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Segundos</div>
+                </div>
+            </div>
+            <div class="countdown-text">Para o nosso próximo mesversário!</div>
+        </section>
+
+        <!-- Interactive Quiz Section -->
+        <section class="quiz-section">
+            <h2 class="section-title">Quanto Você Me Conhece?</h2>
+            <div class="quiz-container">
+                <div class="quiz-progress">
+                    <div class="progress-bar" style="width: 0%"></div>
+                </div>
+                <div class="quiz-question active">
+                    <h3>Qual é minha comida favorita?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option">Pizza</button>
+                        <button class="quiz-option">Sushi</button>
+                        <button class="quiz-option">Lasanha</button>
+                        <button class="quiz-option">Hambúrguer</button>
+                    </div>
+                </div>
+                <div class="quiz-question">
+                    <h3>Qual foi nosso primeiro encontro?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option">No cinema</button>
+                        <button class="quiz-option">Tomando café</button>
+                        <button class="quiz-option">No parque</button>
+                        <button class="quiz-option">Em um restaurante</button>
+                    </div>
+                </div>
+                <div class="quiz-question">
+                    <h3>Qual é meu maior sonho?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option">Viajar o mundo</button>
+                        <button class="quiz-option">Construir uma família</button>
+                        <button class="quiz-option">Ter sucesso profissional</button>
+                        <button class="quiz-option">Comprar uma casa</button>
+                    </div>
+                </div>
+                <div class="quiz-result">
+                    <h3>Resultado</h3>
+                    <div class="result-score">Você acertou <span id="correct-answers">0</span> de 3 perguntas!</div>
+                    <div class="result-message" id="result-message"></div>
+                    <button class="btn retry-quiz">Tentar Novamente</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="hearts-container">
+                <i class="fas fa-heart floating-heart" style="--delay: 0s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 1s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 2s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 3s;"></i>
+                <i class="fas fa-heart floating-heart" style="--delay: 4s;"></i>
+            </div>
+            <div class="footer-content">
+                <div class="footer-message">
+                    <p>Feito com <i class="fas fa-heart"></i> para o amor da minha vida</p>
+                    <p>Este é apenas o começo da nossa jornada juntos</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023 - Nosso Amor - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Confetti Button -->
+    <button class="confetti-btn" id="confettiBtn"><i class="fas fa-gift"></i> Surpresa!</button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
