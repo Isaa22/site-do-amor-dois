@@ -57,27 +57,71 @@
         </header>
 
         <!-- Photo Gallery Section -->
-        <section class="photo-gallery-section" id="gallery">
-            <h2 class="section-title">Nossos Momentos</h2>
-            <div class="swiper gallery-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="photo-card">
-                            <img src="WhatsApp Image 2025-07-26 at 16.46.29 (1).jpeg" alt="Nós dois">
-                            <div class="photo-caption">❤️</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="photo-card">
-                            <img src="WhatsApp Image 2025-07-26 at 16.46.28.jpeg" alt="Nós dois">
-                            <div class="photo-caption">❤️</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="photo-card">
-                            <img src="WhatsApp Image 2025-07-27 at 02.10.01.jpeg" alt="Nós dois">
-                            <div class="photo-caption">❤️</div>
-                        </div>
+      <section class="photo-gallery-section" id="gallery">
+    <h2 class="section-title">Nossos Momentos</h2>
+    <div class="swiper gallery-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2025-07-26 at 16.46.29 (1).jpeg" alt="Nós dois" class="gallery-image">
+                    <div class="photo-caption">❤️</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2025-07-26 at 16.46.28.jpeg" alt="Nós dois" class="gallery-image">
+                    <div class="photo-caption">❤️</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2025-07-27 at 02.10.01.jpeg" alt="Nós dois" class="gallery-image">
+                    <div class="photo-caption">❤️</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .photo-gallery-section {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .gallery-image {
+        width: 100%;
+        height: auto;
+        max-height: 600px; /* Ajuste este valor para aumentar/diminuir a altura máxima */
+        object-fit: contain; /* Mantém a proporção da imagem */
+        display: block;
+    }
+    
+    .photo-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .gallery-swiper {
+        height: 650px; /* Ajuste conforme necessário */
+    }
+    
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .photo-caption {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+</style>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
